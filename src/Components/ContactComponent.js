@@ -13,7 +13,6 @@ class ProjectComponent extends React.Component {
                 <div className="ContactText">
                     <a href="https://github.com/ghalliday553">GitHub</a>
                 </div>
-                <p>Testing Vercel redeployment trigger - to be removed</p>
             </div>
         )
     }
