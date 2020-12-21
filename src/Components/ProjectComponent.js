@@ -23,11 +23,11 @@ class ProjectComponent extends React.Component {
         this.ledDisplay = {
             projectName: "Network-Connected Audio Sensing LED Display",
             projectOverviewText: ["LED Display capable of synchronizing with low musical frequencies, providing an autonomous and interactive visual experience.",
-                                "Additional networking capabilities enable the user to select pre-defined light shows through a web page, utilising a variety of colour sequences, brightness levels, and wave characteristics."],
-            projectDescriptionList: ["Housing includes an embedded microphone and required circuity to sample audio using an Arduino.",
-                                    "Performs an FFT on sampled audio to sync programmed choreographed light shows with the sonic characteristics of a kick-drum.", 
-                                    "Integrated NodeMCU hosts a web server to allow for the selection of multiple light show patterns and colors.",
-                                    "Designed and 3D printed all housings and joints."],
+                                "Additional networking capabilities enable the user to select pre-defined light shows through a web app, utilising a variety of colour sequences, brightness levels, and wave characteristics."],
+            projectDescriptionList: ["Housing includes an embedded microphone and required circuity to sample audio using an Arduino",
+                                    "Performs an FFT on sampled audio to sync programmed choreographed light shows with the sonic characteristics of a kick-drum", 
+                                    "Integrated NodeMCU hosts a web server to allow for the selection of multiple light show patterns and colors",
+                                    "Designed and 3D printed all housings and joints"],
             assets: <LedDisplayAssets></LedDisplayAssets>
         }
         this.facialRecognition = {
@@ -35,21 +35,21 @@ class ProjectComponent extends React.Component {
             projectOverviewText: ["Facial recognition system used to greet identified individuals with a personalized audio message.",
                                 "System utilizes an iOS app to stream camera data to a local web server hosted on a raspberry pi. Individuals are then identified using a convolutional neural net"],
             projectDescriptionList: ["iOS application responsible for accessing and sending camera data using Alamofire",
-                                    "Model created using tensorflow and keras utilising four 2D CNN layers."],
+                                    "Model created using tensorflow and keras utilising 2D CNN layers"],
             assets: <FacialRecognitionAssets></FacialRecognitionAssets>
         }
         this.fatigueDetection = {
             projectName: "Fatigue-Detecting Neural Net Utilizing EEG Data",
-            projectOverviewText: ["Fatigue detection system utilizing EEG data to infer if an individual is fit to perform a task. Testing showed results carry a confidence rating greater than 90%.",
-                                "Neural net additionally achieves subject-independence by utilising brain frequency entropy."],
-            projectDescriptionList: ["System utilises long short-term memory network.",
-                                    "Model trained using EEG data taken from nurses before and after hospital shifts."],
+            projectOverviewText: ["Fatigue detection system utilizing EEG data to infer if an individual is fit to perform a task. Testing showed results carried a confidence rating greater than 90%.",
+                                "Subject independence was additionally acheived by utilising brain frequency entropy."],
+            projectDescriptionList: ["System utilises long short-term memory network",
+                                    "Model trained using EEG data taken from nurses before and after hospital shifts"],
             assets: <FatigueDetectionAssets></FatigueDetectionAssets>
         }
         this.audioEffects = {
             projectName: "Dynamic Real-Time Audio Effects Device",
             projectOverviewText: ["Audio effects device attempting to prototype a digital guitar pedal capable of applying user-uploaded effects in real-time.",
-                                "The system consists of both an iOS app allowing for effect uploads over bluetooth, as well as a 'pedal' responsible for applying the effects."],
+                                "The system consists of both an iOS app allowing for effect uploads over bluetooth, as well as a 'pedal' responsible for applying uploaded effects."],
             projectDescriptionList: ["iOS app utilising the Core Bluetooth Framework",
                                     "Pedal consisting of an arduino responsible for sampling audio and performing the digital signal processing, bluetooth chip for communicating with the iOS app, LED display for advertising the chosen effect, and a digital-to-analog converter for outputting processed audio"],
             assets: <AudioEffectsAssets></AudioEffectsAssets>
