@@ -16,7 +16,7 @@ class LedDisplayAssets extends React.Component {
                             <p>Notice: language advisory</p>
                         </Carousel.Caption>
                         <video style={{display: "block", margin: "auto", height: "500px"}} controls>
-                            <source src="./ProjectAssets/ledDemo2_Clean.mp4"></source>
+                            <source src="./ProjectAssets/LedDemo2_Clean.mp4"></source>
                         </video>
                     </Carousel.Item>
                 </Carousel>
