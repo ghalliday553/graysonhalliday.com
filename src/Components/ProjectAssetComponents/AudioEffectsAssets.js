@@ -5,7 +5,7 @@ class LedDisplayAssets extends React.Component {
     render() {
         return (
             <div className="ProjectAssetCarousel">
-                <Carousel>
+                <Carousel interval={null} indicators={false}>
                     <Carousel.Item>
                         <img style={{display: "block", margin: "auto", height: "500px" }} src="./ProjectAssets/audioEffects.jpg" alt="audio effects"></img>
                     </Carousel.Item>

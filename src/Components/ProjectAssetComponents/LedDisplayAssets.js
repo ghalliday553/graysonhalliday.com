@@ -5,7 +5,7 @@ class LedDisplayAssets extends React.Component {
     render() {
         return (
             <div className="ProjectAssetCarousel">
-                <Carousel interval={null}>
+                <Carousel interval={null} indicators={false}>
                     <Carousel.Item>
                         <video style={{display: "block", margin: "auto", height: "500px" }} controls>
                             <source src="./ProjectAssets/ledDemo1.mp4"></source>
