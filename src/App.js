@@ -8,11 +8,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Education from './Components/Education.js'
+import Education from './Components/EducationComponent.js'
 import WorkExperience from './Components/WorkExperience.js'
 import ProjectComponent from './Components/ProjectComponent.js'
 import HomeComponent from './Components/HomeComponent.js'
 import ContactComponent from './Components/ContactComponent.js'
+import EducationComponent from './Components/EducationComponent.js';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
             <HomeComponent></HomeComponent>
           </Route>
           <Route path="/education">
-            <Education></Education>
+            <EducationComponent></EducationComponent>
           </Route>
           <Route path="/work-experience">
             <WorkExperience></WorkExperience>

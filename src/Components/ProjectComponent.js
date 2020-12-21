@@ -56,7 +56,6 @@ class ProjectComponent extends React.Component {
         }
     }
     render() {
-        let assets;
         switch(this.props.projectName) {
             case "teamSolve":
                 this.currentProject = this.teamSolve;
