@@ -8,7 +8,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Education from './Components/EducationComponent.js'
 import WorkExperience from './Components/WorkExperience.js'
 import ProjectComponent from './Components/ProjectComponent.js'
 import HomeComponent from './Components/HomeComponent.js'
