@@ -59,23 +59,18 @@ class ProjectComponent extends React.Component {
         switch(this.props.projectName) {
             case "teamSolve":
                 this.currentProject = this.teamSolve;
-                assets = <TeamSolveAssets></TeamSolveAssets>
                 break;
             case "ledDisplay":
                 this.currentProject = this.ledDisplay;
-                assets = <LedDisplayAssets></LedDisplayAssets>
                 break
             case "facialRecognition":
                 this.currentProject = this.facialRecognition;
-                assets = <FacialRecognitionAssets></FacialRecognitionAssets>
                 break
             case "fatigueDetection":
                 this.currentProject = this.fatigueDetection;
-                assets = <FatigueDetectionAssets></FatigueDetectionAssets>
                 break
             case "audioEffects":
                 this.currentProject = this.audioEffects;
-                assets = <AudioEffectsAssets></AudioEffectsAssets>
                 break
             default:
                 this.currentProject = null;
