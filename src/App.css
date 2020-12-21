@@ -97,3 +97,12 @@ hr {
   margin-left: 20px;
   margin-top: 20px;
 }
+
+.Mobile {
+  font-family: 'Lusitana', Georgia, serif;
+  color: rgb(88, 96, 89);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
