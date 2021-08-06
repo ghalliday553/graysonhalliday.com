@@ -8,7 +8,8 @@ class HomeComponent extends React.Component {
                 <hr></hr>
                 <p className="HelloContainer">
                     <p className="HelloContainerText">
-                        <p className="HelloText">I am a fifth-year electrical engineering student at the University of Victoria seeking full time employment for fall 2021.</p>
+                        <p className="HelloText">Hello!</p>
+                        <p className="HelloText">My name is Grayson Halliday and I am an electrical engineering graduate of the University of Victoria. Although my interests currently lie within networking and machine learning, I am always looking for new projects to tackle and knowledge to gain.</p>
                         <p className="HelloText">Outside of the workplace my passions involve playing and performing music, sports, and outdoor adventures.</p>
                     </p>
                     <img className="Headshot" src="./headshot.jpeg" alt="headshot"></img>
