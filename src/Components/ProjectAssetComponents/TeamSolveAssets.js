@@ -27,7 +27,7 @@ class TeamSolveAssets extends React.Component {
                         <img style={{display: "block", margin: "auto", height: "500px" }} src="./ProjectAssets/TeamSolve/SolutionPage.jpeg" alt="solution page"></img>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img style={{display: "block", margin: "auto", height: "500px" }} src="./ProjectAssets/TeamSolve/FullScreenImage.jpeg" alt="image"></img>
+                        <img style={{display: "block", margin: "auto", height: "500px" }} src="./ProjectAssets/TeamSolve/FullScreenImage.jpeg" alt="image page"></img>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img style={{display: "block", margin: "auto", height: "500px" }} src="./ProjectAssets/TeamSolve/Comments.jpeg" alt="comments page"></img>
