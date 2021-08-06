@@ -33,8 +33,9 @@ class App extends React.Component {
                   <Nav.Link as={Link} to="/work-experience">Work Experience</Nav.Link>
                   <NavDropdown title="Personal Projects" id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/team-solve">TeamSolve iOS Application</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/facial-recognition">IoT Facial Recognition System</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/nhl-betting">Machine Learning NHL Game Prediction System</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/led-display">Network-Connected Audio-Sensing LED Display</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/facial-recognition">Facial Recognition Greeting System</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/fatigue-detection">Fatigue Detecting Neural Net</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/audio-effects">Bluetooth-Connected Real-Time Audio Effects Device</NavDropdown.Item>
                   </NavDropdown>
@@ -60,6 +61,9 @@ class App extends React.Component {
               </Route>
               <Route path="/facial-recognition">
                 <ProjectComponent projectName="facialRecognition"></ProjectComponent>
+              </Route>
+              <Route path="/nhl-betting">
+                <ProjectComponent projectName="NHLBetting"></ProjectComponent>
               </Route>
               <Route path="/fatigue-detection">
                 <ProjectComponent projectName="fatigueDetection"></ProjectComponent>

@@ -2,12 +2,26 @@ import React from 'react';
 import {Carousel} from 'react-bootstrap';
 
 class TeamSolveAssets extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.currentCarouselIndex = 0
+    }
+    
+    handleSelect = (selectedIndex, e) => {
+        if (this.currentCarouselIndex == 0) {
+            this.refs.TeamSolveVideoRef.pause();
+        } 
+        this.currentCarouselIndex = selectedIndex;
+    }
+
+
     render() {
         return (
             <div className="ProjectAssetCarousel">
-                <Carousel interval={null} indicators={false}>
+                <Carousel interval={null} indicators={false} onSelect={this.handleSelect}>
                     <Carousel.Item>
-                        <video style={{display: "block", margin: "auto", height: "500px"}} controls>
+                        <video ref="TeamSolveVideoRef" style={{display: "block", margin: "auto", height: "500px"}} controls>
                             <source src="/ProjectAssets/TeamSolve/TeamSolveDemo_V2_Small.mp4" type="video/mp4"></source>
                         </video>
                     </Carousel.Item>

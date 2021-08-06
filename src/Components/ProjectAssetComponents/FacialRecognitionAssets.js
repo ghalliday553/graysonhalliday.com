@@ -7,7 +7,7 @@ class FacialRecognitionAssets extends React.Component {
             <div className="ProjectAssetCarousel">
                 <Carousel class="ProjectAssetCarousel">
                     <Carousel.Item>
-                        <img style={{display: "block", margin: "auto", height: "500px" }} src="./ProjectAssets/ComingSoon.png" alt="coming soon"></img>
+                        <img style={{display: "block", margin: "auto", height: "500px" }} src="/ProjectAssets/ComingSoon.png" alt="coming soon"></img>
                     </Carousel.Item>
                 </Carousel>
             </div>
