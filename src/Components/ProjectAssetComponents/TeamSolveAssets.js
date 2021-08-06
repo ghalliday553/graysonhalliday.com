@@ -8,7 +8,7 @@ class TeamSolveAssets extends React.Component {
                 <Carousel interval={null} indicators={false}>
                     <Carousel.Item>
                         <video style={{display: "block", margin: "auto", height: "500px"}} controls>
-                            <source src="/ProjectAssets/TeamSolve/TeamSolveDemo_V2.mp4" type="video/mp4"></source>
+                            <source src="/ProjectAssets/TeamSolve/TeamSolveDemo_V2_Small.mp4" type="video/mp4"></source>
                         </video>
                     </Carousel.Item>
                     <Carousel.Item>
