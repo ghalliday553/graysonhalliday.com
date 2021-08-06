@@ -9,7 +9,7 @@ class TeamSolveAssets extends React.Component {
     }
     
     handleSelect = (selectedIndex, e) => {
-        if (this.currentCarouselIndex == 0) {
+        if (this.currentCarouselIndex === 0) {
             this.refs.TeamSolveVideoRef.pause();
         } 
         this.currentCarouselIndex = selectedIndex;

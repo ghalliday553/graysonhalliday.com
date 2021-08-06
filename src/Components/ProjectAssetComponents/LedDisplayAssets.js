@@ -9,9 +9,9 @@ class LedDisplayAssets extends React.Component {
     }
     
     handleSelect = (selectedIndex, e) => {
-        if (this.currentCarouselIndex == 0) {
+        if (this.currentCarouselIndex === 0) {
             this.refs.LEDDemo1Ref.pause();
-        } else if (this.currentCarouselIndex == 1) {
+        } else if (this.currentCarouselIndex === 1) {
             this.refs.LEDDemo2Ref.pause();
         }
         this.currentCarouselIndex = selectedIndex;

@@ -8,7 +8,7 @@ class LedDisplayAssets extends React.Component {
     }
     
     handleSelect = (selectedIndex, e) => {
-        if (this.currentCarouselIndex == 1) {
+        if (this.currentCarouselIndex === 1) {
             this.refs.AudioDemoRef.pause();
         } 
         this.currentCarouselIndex = selectedIndex;
