@@ -7,7 +7,9 @@ class FacialRecognitionAssets extends React.Component {
             <div className="ProjectAssetCarousel">
                 <Carousel class="ProjectAssetCarousel">
                     <Carousel.Item>
-                        <img style={{display: "block", margin: "auto", height: "500px" }} src="/ProjectAssets/ComingSoon.png" alt="coming soon"></img>
+                        <video style={{display: "block", margin: "auto", height: "500px"}} controls>
+                            <source src="/ProjectAssets/IoTFRDemo.mp4" type="video/mp4"></source>
+                        </video>
                     </Carousel.Item>
                 </Carousel>
             </div>
