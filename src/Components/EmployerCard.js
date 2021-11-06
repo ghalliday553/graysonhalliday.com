@@ -10,7 +10,7 @@ class EmployerCard extends React.Component {
                 <Card.Header key={ind}>{text}</Card.Header>
             )} 
             <Card.Body>
-            <Card.Title>{this.props.empoyerName}</Card.Title>
+            <Card.Title>{this.props.employerName}</Card.Title>
             <Card.Text>
                 <ul>
                 {this.props.employerText.map((text, ind) =>

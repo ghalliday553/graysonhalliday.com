@@ -5,10 +5,10 @@ import EmployerCard from './EmployerCard.js'
 class WorkExperience extends React.Component {
     constructor(props) {
       super(props);
-      this.sierraText = ["Developed, tested, and troubleshooted firmware written in C for an LTE modem using a Linux environment",
-        "Refactored the modem’s networking stack solution with support for TCP, UDP, FTP, HTTP, HTTPS, TLS, and DTLS protocols",
+      this.sierraText = ["Developed, tested, and troubleshooted firmware written in C for 5G and LTE modems using a Linux environment",
+        "Refactored the LTE modem’s networking stack solution with support for TCP, UDP, FTP, HTTP, HTTPS, TLS, and DTLS protocols",
         "Utilized RTOS technologies",
-        "Analyzed and provided solutions for customer network and modem issues, utilizing a knowledge of LTE architecture"];
+        "Analyzed and provided solutions for customer network and modem issues, utilizing a knowledge of LTE and 5G architectures"];
       this.sierraPositionText = ["Junior Firmware Engineer / September 2020 – Present",
         "Firmware Developer Co-op / Jan 2020 – September 2020"]
   
